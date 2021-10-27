@@ -1,4 +1,4 @@
-# cable-two-network-namespaces
+# Cable attached to two network namespaces
 Link two network namespaces (direct cable, no outside)
 
 # Link two network namespaces (direct cable, no outside)

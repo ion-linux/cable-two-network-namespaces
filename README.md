@@ -71,10 +71,10 @@ ip link set eth0-hr netns hr
 # L3 config
 # Add IP addresses on each virtual interface
 ```
-ip -n purchasing address add 192.168.1.1 dev eth0-purchasing
+ip -n purchasing address add 192.168.1.1/24 dev eth0-purchasing
 ```
 ```
-ip -n hr address add 192.168.1.2 dev eth0-hr
+ip -n hr address add 192.168.1.2/24 dev eth0-hr
 ```
 
 ## Unshut the interfaces
